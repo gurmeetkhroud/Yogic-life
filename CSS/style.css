@@ -1,0 +1,204 @@
+/*body styles for all pages */
+body{
+    width: auto;
+    overflow-x: hidden;
+    background-image: url("../Image/background.jpg");
+    /*http://food.ndtv.com/health/the-truth-about-yoga-5-myths-that-are-just-silly-772420 */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Remove default nderline of u tag*/
+u{
+  text-decoration: none !important;
+}
+/*This class gives red colored underline to u tag*/
+  .underline{
+    border-bottom: solid #C30000 ;
+    padding-bottom: 3px;
+  }
+/*This is the  */
+div#header-image {
+  display: inline-block;
+  width: 20%;
+  background-color: white;
+}
+
+div#header-image img {
+  width: 100%;
+  display: inline-block;
+}
+
+div#header-text {
+  width: 70%;
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+/*Styling h1 tag */
+div#header-text h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+/*Styling h3 tag */
+div#header-text h3 {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: darkgray;
+    font-size: 15px;
+    font-style: italic;
+}
+/*Making navigation inline*/
+div#menu {
+  width: 100%;
+  display: inline-block;
+  background-color: lightgreen;
+}
+/*part of navigation*/
+div#menu ul {
+  width: 100%;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/*part of navigation*/
+div#menu ul li {
+  width: 9%;
+  display: inline-block;
+  height: 30px;
+  text-align: center;
+  padding-top: 15px;
+}
+div#menu ul li:nth-child(11) {
+  width: 10%;
+}
+/*changing properties of a tag for navigation*/
+div#menu a{
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: darkgreen;
+  display: block;
+  height: 30px;
+}
+/*on mouse hover over the menu*/
+div#menu ul li:hover {
+  background-color: teal;
+  color: white;
+}
+
+div#menu a:hover{
+  color: white;
+}
+/*This class is select the active and changes the properties of active tab */
+.current {
+  background-color: teal;
+  color: white;
+}
+div#title-holder {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+div#page-title {
+  width: 95%;
+  display: inline-block;
+  float: left;
+}
+div#page-title h1{
+  padding-left: 5%;
+}
+div#print-image {
+  width: 4%;
+  display: inline-block;
+}
+div#print-image img {
+  width: 70%;
+  margin-top: 10%;
+}
+/*styling the footer*/
+div#footer {
+	width: 100%;
+	display: inline-block;
+	margin: 0px auto;
+	text-align: center;
+	background-color: lightgreen;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
+  bottom: 0;
+  position: relative;;
+}
+/*styling icon in footer*/
+div#footer-icons {
+	width: 25%;
+	margin: 0px auto;
+	background-color: white;
+	border: 3px solid teal;
+	border-radius: 15px;
+	padding-top: 3px;
+}
+div#footer img {
+	width: 22%;
+	margin-right: 2px;
+}
+
+div#footer img:hover {
+	cursor: pointer;
+}
+
+p {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 900;
+}
+/*This class is creating margin of 27 pixel to the right of left image */
+.left-image{
+  margin-right:27px;
+}
+/*This class is creating margin of 27 pixel to the left of right image */
+.right-image{
+  margin-left:27px;
+}
+/*This class is creating margin of 54 pixel at the bottom of image */
+.margin-bottom{
+  margin-bottom: 54px;
+}
+/* This class creates boundary around the video*/
+ .boundry {
+    padding: 1px;
+    border: 5px solid red ;
+     border-radius: 25px;
+
+
+}
+/*This class is created for gallery images*/
+.imageDiv {
+  width: 49%;
+  border: 1px solid green;
+  margin-top: 2%;
+  display: inline-block;
+  vertical-align: top;
+}
+/*This class is for styling gallery images*/
+.galleryImage {
+  width: 98%;
+  margin: 0 auto;
+}
+/*This class used to style the description of the video*/
+.video-desc{
+  width: 50%;
+  margin: 0 auto; /*To horizontal center all the elements within the class*/
+  text-align: justify; /*justfi all text within the class*/
+}
+/*This class align table to center*/
+.table-align{
+  margin-left: auto;
+  margin-right: auto;
+    border: 1px solid black
+}
+.table-align tr{
+  border: 1px solid black
+}
+.table-align td{
+  border: 1px solid black
+}

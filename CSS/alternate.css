@@ -1,0 +1,46 @@
+/*Making background white and resizing it to fit A4 size*/
+body {
+  background: white;
+  width: 1024px;
+  margin: 0 auto;
+}
+/*Hiding header image*/
+div#header-image {
+  display: none;
+}
+/*Aligning header text*/
+div#header-text {
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+/*Hiding site menu*/
+div#menu {
+  display: none;
+}
+/*Adding border to split header and content*/
+div#title-holder {
+  border-top: 1px solid black;
+}
+/*Hiding printer icon image*/
+div#print-image {
+  display: none;
+}
+/*Modifying footer to appear like an email signature*/
+div#footer {
+  background: white;
+  border-top: 1px solid black;
+  text-align: right;
+}
+/*Hiding unwanted footer text*/
+div#footer-text p#footer-text-2 {
+  display: none;
+}
+/*Hiding social icon image*/
+div#footer-icons {
+  display: none;
+}
+/*Hiding RSS feeds*/
+div#rss-feeds {
+  display: none;
+}
